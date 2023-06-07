@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1851625663}
-  TimeToArrive: 1
+  TimeToArrive: 5
   CurrentTime: 0
   aceleracion: 0
 --- !u!135 &1478198777

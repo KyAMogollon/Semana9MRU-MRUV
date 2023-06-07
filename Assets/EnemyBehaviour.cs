@@ -37,6 +37,6 @@ public class EnemyBehaviour : MonoBehaviour
     {
         Vector3 direccion = (player.position - transform.position).normalized;
         float distancia = Vector3.Distance(transform.position, player.position);
-        return (distancia - (aceleracion * Mathf.Pow(TimeToArrive, 2))) / TimeToArrive;
+        return ((distancia - (aceleracion * Mathf.Pow(TimeToArrive, 2))) / TimeToArrive)*Time.deltaTime;
     }
 }
